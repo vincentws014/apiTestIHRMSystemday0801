@@ -1,0 +1,12 @@
+2020-03-03 13:23:00,570 INFO [root] [__init__.py(<module>:15)] - 测试日志是否能够正常打印2！
+2020-03-03 13:23:01,272 INFO [root] [employe_params.py(test01_login_success:24)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '8e9fa3dd-1dd2-4ce7-9182-8c7d0fb71dc9'}
+2020-03-03 13:23:01,272 INFO [root] [employe_params.py(test01_login_success:27)] - 取出的令牌为：Bearer 8e9fa3dd-1dd2-4ce7-9182-8c7d0fb71dc9
+2020-03-03 13:23:01,272 INFO [root] [employe_params.py(test01_login_success:33)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 8e9fa3dd-1dd2-4ce7-9182-8c7d0fb71dc9'}
+2020-03-03 13:23:01,273 INFO [root] [employe_params.py(test02_add_emp:37)] - 保存在类方法的属性值{'Content-Type': 'application/json', 'Authorization': 'Bearer 8e9fa3dd-1dd2-4ce7-9182-8c7d0fb71dc9'}
+2020-03-03 13:23:01,376 INFO [root] [employe_params.py(test02_add_emp:42)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234710853445832704'}}
+2020-03-03 13:23:01,376 INFO [root] [employe_params.py(test02_add_emp:49)] - 保存的员工ID为：1234710853445832704
+2020-03-03 13:23:01,470 INFO [root] [employe_params.py(test03_query_emp:54)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234710853445832704', 'mobile': '12356789431', 'username': '井冈山xxxx001', 'password': 'f515459854b2beea1fb2c5e5b736f4b7', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 13:23:01,576 INFO [root] [employe_params.py(test04_modify_emp:61)] - 修改员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234710853445832704'}}
+2020-03-03 13:23:01,781 INFO [root] [employe_params.py(test04_modify_emp:69)] - 要查询的SQL语句为：select username from bs_user where id = 1234710853445832704;
+2020-03-03 13:23:01,840 INFO [root] [employe_params.py(test04_modify_emp:74)] - SQL查询出来的结果为：('new_tom',)
+2020-03-03 13:23:01,954 INFO [root] [employe_params.py(test05_delete_emp:85)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
